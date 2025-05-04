@@ -1,15 +1,98 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <title>About Us - Jamdani Sarees</title>
   <link rel="stylesheet" href="css/style.css">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #e4d9d9;
+    }
+
+    .banner {
+      background-image: url('https://vardhmancollection.com/uploads/products/img-1434734569668a705407a839.70274045.jpg'); /* Replace with your image path */
+      background-size: cover;
+      background-position: center;
+      height: 400px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: white;
+      text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.7);
+    }
+
+    .card {
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+      border: none;
+    }
+
+    .section-title {
+      font-size: 2rem;
+      margin-bottom: 20px;
+      border-bottom: 3px solid #007bff;
+      display: inline-block;
+      padding-bottom: 5px;
+    }
+
+    footer {
+      background-color: #343a40;
+      color: white;
+      padding: 15px 0;
+    }
+  </style>
 </head>
+
 <body>
-  <div class="container mt-5">
-    <h2>About Us</h2>
-    <p>We specialize in handcrafted traditional Jamdani sarees. Each piece reflects our rich Bangladeshi heritage.</p>
+
+  <!-- Banner Section -->
+  <div class="banner">
+    <h1>About Jamdani Saree Shop</h1>
   </div>
+
+  <!-- About Content -->
+  <div class="container my-5">
+    <div class="row justify-content-center">
+      <div class="col-md-10 text-center">
+        <h2 class="section-title">Our Story</h2>
+        <p class="lead mt-3">
+          We specialize in handcrafted traditional Jamdani sarees that are woven with love and care. Every piece carries the legacy of generations of Bangladeshi artisans. Our mission is to preserve the art of Jamdani weaving and share it with the world.
+        </p>
+      </div>
+    </div>
+
+    <!-- Core Values Section -->
+    <div class="row mt-5">
+      <div class="col-md-4">
+        <div class="card p-3">
+          <h5 class="card-title text-primary">Tradition</h5>
+          <p class="card-text">We value the centuries-old Jamdani craft passed down through generations.</p>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card p-3">
+          <h5 class="card-title text-success">Craftsmanship</h5>
+          <p class="card-text">Our artisans weave each saree with meticulous attention to detail and care.</p>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card p-3">
+          <h5 class="card-title text-danger">Elegance</h5>
+          <p class="card-text">Our designs blend classic elegance with modern aesthetics, perfect for any occasion.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer class="text-center">
+    <div class="container">
+      <p>&copy; 2025 Jamdani Saree Shop. All rights reserved.</p>
+    </div>
+  </footer>
+
 </body>
+
 </html>
