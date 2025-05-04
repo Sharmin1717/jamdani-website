@@ -1,0 +1,44 @@
+/* style.css */
+
+/* General body styling */
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #fffefc;
+    color: #333;
+  }
+  
+  /* Sidebar */
+  aside ul {
+    list-style: none;
+    padding-left: 0;
+  }
+  aside ul li {
+    margin-bottom: 8px;
+  }
+  
+  /* Hover effects for buttons */
+  button,
+  .btn {
+    transition: all 0.3s ease-in-out;
+  }
+  
+  button:hover,
+  .btn:hover {
+    background-color: #ffc107 !important;
+    color: #fff !important;
+    transform: scale(1.05);
+  }
+  
+  /* Footer styling */
+  footer {
+    position: sticky;
+    bottom: 0;
+    width: 100%;
+  }
+  
+  /* Carousel image size */
+  .carousel-item img {
+    height: 400px;
+    object-fit: cover;
+  }
+  
